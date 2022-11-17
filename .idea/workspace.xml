@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="825ef7a0-ad83-4c5e-b7d1-3b716f77b39d" name="Changes" comment="Added developer video and new developer page.">
-      <change beforePath="$PROJECT_DIR$/_sass/custom/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/custom/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer_custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer_custom.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
