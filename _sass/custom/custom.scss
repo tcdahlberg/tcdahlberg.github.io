@@ -2,6 +2,23 @@
   .site-nav, .site-header, .site-footer {
     width: 260px;
   }
+  .side-bar {
+    width:26%;
+  }
+  .main {
+    margin-left:26%;
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 50rem) {
+  .side-bar {
+    width:30%;
+  }
+  .main {
+    margin-left:30%;
+    marx-width: 70%;
+  }
 }
 
 a {
@@ -10,14 +27,23 @@ a {
 
 .site-header {
   min-height: 160px;
-  max-height: 320px;
-  height: 320px;
-  background-color: #27262B;
+  max-height: 260px;
+  height: 260px;
+  background-color: transparent;
 }
 
 .site-nav {
   padding-top: 0;
 }
+
+.site-title {
+  padding: 0;
+}
+
+.main-content a {
+  white-space: normal;
+}
+
 /*
 
 .search-input {
