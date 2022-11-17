@@ -29,3 +29,5 @@ out
 
 # CumulusCI
 /test_results.*
+
+.idea
