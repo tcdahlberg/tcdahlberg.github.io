@@ -1,0 +1,47 @@
+@media (min-width: 66.5rem) {
+  .site-nav, .site-header, .site-footer {
+    width: 260px;
+  }
+}
+
+a {
+  color: #abcfff;
+}
+.nav-list .nav-list-item>.nav-list .nav-list-item .nav-list-link {
+  color: #ffffff;
+}
+
+.site-header {
+  min-height: 200px;
+  max-height: 200px;
+  background-color: #27262B;
+}
+
+.nav-list-item .active {
+
+}
+
+.search-input {
+  color: #fff;
+}
+
+.site-title {
+  padding: 0;
+}
+
+.site-nav, .site-footer {
+  background-color: #282661;
+}
+
+.main-content a {
+  white-space: normal;
+}
+
+.main-content-wrap, .main-header {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#261f4f+0,3e3d44+100 */
+  background: #201c38; /* Old browsers */
+  background: -moz-linear-gradient(left, #201c38 0%, #222128 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #201c38 0%, #222128 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #201c38 0%, #222128 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#201c38', endColorstr='#222128', GradientType=1); /* IE6-9 */
+}
