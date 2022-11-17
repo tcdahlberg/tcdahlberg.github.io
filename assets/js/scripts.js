@@ -33,14 +33,14 @@ document.addEventListener('DOMContentLoaded', function (event) {
         imageModal.style.display = "none";
     }
 
-    setIframeVideo()
+    setIframeVideo();
 });
 
 function setIframeVideo() {
     const contentIFrames = document.querySelectorAll('#main-content iframe');
     let mainContentWidth = getContentWidth(document.getElementById('main-content'));
     contentIFrames.forEach(function (frame) {
-        if (frame.src.includes('youtube.com') || frame.src.includes('vimeo.com')) {
+        if (frame.src.includes('youtube.com')) {
             frame.width = mainContentWidth + 'px';
             frame.height = mainContentWidth * 9 / 16 + 'px';
         }

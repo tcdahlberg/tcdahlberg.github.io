@@ -1,8 +1,458 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="825ef7a0-ad83-4c5e-b7d1-3b716f77b39d" name="Changes" comment="Added developer video and new developer page." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="267gOQf4pdwEsdZfbQlNiqkuT18" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Thad-PC-2019/IdeaProjects/summit-events-app-documentation/_includes/js&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Thad-PC-2019\IdeaProjects\summit-events-app-documentation\_includes\js" />
+      <recent name="C:\Users\Thad-PC-2019\IdeaProjects\summit-events-app-documentation\docs\getting-involved\sprints" />
+      <recent name="C:\Users\Thad-PC-2019\IdeaProjects\summit-events-app-documentation\docs\getting-involved\presentations" />
+      <recent name="C:\Users\Thad-PC-2019\IdeaProjects\summit-events-app-documentation\docs\getting-involved\developer-contribution" />
+      <recent name="C:\Users\Thad-PC-2019\IdeaProjects\summit-events-app-documentation\docs\standard-features" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Thad-PC-2019\IdeaProjects\summit-events-app-documentation\docs\getting-involved" />
+      <recent name="C:\Users\Thad-PC-2019\IdeaProjects\summit-events-app-documentation\docs\images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="825ef7a0-ad83-4c5e-b7d1-3b716f77b39d" name="Changes" comment="" />
+      <created>1646780005986</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646780005986</updated>
+      <workItem from="1646780007746" duration="4115000" />
+      <workItem from="1646839172570" duration="7422000" />
+      <workItem from="1646854105130" duration="6616000" />
+      <workItem from="1648062317688" duration="826000" />
+      <workItem from="1649088477366" duration="1788000" />
+      <workItem from="1650552133055" duration="2848000" />
+      <workItem from="1650728291339" duration="1329000" />
+      <workItem from="1652390614573" duration="493000" />
+      <workItem from="1652880849648" duration="6171000" />
+      <workItem from="1652968579584" duration="2947000" />
+      <workItem from="1653319451861" duration="9714000" />
+      <workItem from="1653340091131" duration="3458000" />
+      <workItem from="1668702744329" duration="659000" />
+    </task>
+    <task id="LOCAL-00016" summary="try using site var to put images">
+      <created>1646848170750</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1646848170750</updated>
+    </task>
+    <task id="LOCAL-00017" summary="changing the base URL">
+      <created>1646848282362</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1646848282362</updated>
+    </task>
+    <task id="LOCAL-00018" summary="changing the logo url">
+      <created>1646848308486</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1646848308486</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changing the logo url">
+      <created>1646848438137</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1646848438137</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update base URL yet again. Still no golden ticket.">
+      <created>1646848609546</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1646848609546</updated>
+    </task>
+    <task id="LOCAL-00021" summary="base url to nothing?">
+      <created>1646848996381</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1646848996381</updated>
+    </task>
+    <task id="LOCAL-00022" summary="base url to nothing?">
+      <created>1646849119218</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1646849119218</updated>
+    </task>
+    <task id="LOCAL-00023" summary="trying another image URL">
+      <created>1646849253059</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1646849253059</updated>
+    </task>
+    <task id="LOCAL-00024" summary="image urls relative. Considers page a folder.">
+      <created>1646853461045</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1646853461045</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added video resizing for YouTube and modal image popout.">
+      <created>1646936054729</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1646936054729</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added video resizing for YouTube and modal image popout.">
+      <created>1646936303420</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1646936303420</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added aux link">
+      <created>1648062546507</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648062546507</updated>
+    </task>
+    <task id="LOCAL-00028" summary="added nav structure">
+      <created>1650553623770</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1650553623770</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added sub sub nav structure">
+      <created>1650554195282</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1650554195282</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixed placeholder page that shouldn't have children">
+      <created>1650554406117</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1650554406117</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added grand_parent metadata">
+      <created>1650554684324</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1650554684324</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Fixed image paths">
+      <created>1652390869884</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1652390869884</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added edit button to doc pages">
+      <created>1652892409304</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1652892409304</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added edit button to doc pages">
+      <created>1652892494729</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1652892494729</updated>
+    </task>
+    <task id="LOCAL-00035" summary="fixed yml spacing in config">
+      <created>1652892693175</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1652892693175</updated>
+    </task>
+    <task id="LOCAL-00036" summary="fixed edit link">
+      <created>1652893000675</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1652893000675</updated>
+    </task>
+    <task id="LOCAL-00037" summary="trying a script for universal last modified.">
+      <created>1652969044418</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1652969044418</updated>
+    </task>
+    <task id="LOCAL-00038" summary="trying a script for universal last modified.">
+      <created>1652969262140</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1652969262140</updated>
+    </task>
+    <task id="LOCAL-00039" summary="trying a script for universal last modified.">
+      <created>1652969508645</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1652969508645</updated>
+    </task>
+    <task id="LOCAL-00040" summary="trying a script for universal last modified.">
+      <created>1652969773107</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1652969773107</updated>
+    </task>
+    <task id="LOCAL-00041" summary="trying a script for universal last modified.">
+      <created>1652970173143</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1652970173143</updated>
+    </task>
+    <task id="LOCAL-00042" summary="removed script for universal last modified.">
+      <created>1652970586533</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1652970586533</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Added full-calendar demo">
+      <created>1653324735655</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1653324735655</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added summit event site for calendar feed">
+      <created>1653325219813</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1653325219813</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added select for audience dropdown">
+      <created>1653325600424</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1653325600424</updated>
+    </task>
+    <task id="LOCAL-00046" summary="set full calendar content height to auto to avoid scrollbars">
+      <created>1653326203047</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1653326203047</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added different tippy script include">
+      <created>1653326331574</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1653326331574</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added different tippy script include">
+      <created>1653327119901</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1653327119901</updated>
+    </task>
+    <task id="LOCAL-00049" summary="removed link for closed events">
+      <created>1653327518469</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1653327518469</updated>
+    </task>
+    <task id="LOCAL-00050" summary="attempt to remove link from closed events.">
+      <created>1653328291472</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1653328291473</updated>
+    </task>
+    <task id="LOCAL-00051" summary="attempt to remove link from closed events.">
+      <created>1653328750125</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1653328750125</updated>
+    </task>
+    <task id="LOCAL-00052" summary="attempt to remove link from closed events.">
+      <created>1653334406348</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1653334406348</updated>
+    </task>
+    <task id="LOCAL-00053" summary="attempt to remove link from closed events.">
+      <created>1653334494956</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1653334494956</updated>
+    </task>
+    <task id="LOCAL-00054" summary="attempt to remove link from closed events.">
+      <created>1653334831627</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1653334831627</updated>
+    </task>
+    <task id="LOCAL-00055" summary="attempt to remove link from closed events.">
+      <created>1653334998232</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1653334998232</updated>
+    </task>
+    <task id="LOCAL-00056" summary="attempt to remove link from closed events.">
+      <created>1653335418769</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1653335418769</updated>
+    </task>
+    <task id="LOCAL-00057" summary="attempt to remove link from closed events.">
+      <created>1653335530017</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1653335530017</updated>
+    </task>
+    <task id="LOCAL-00058" summary="attempt to remove link from closed events.">
+      <created>1653335771408</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1653335771408</updated>
+    </task>
+    <task id="LOCAL-00059" summary="attempt to remove link from closed events.">
+      <created>1653335891940</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1653335891941</updated>
+    </task>
+    <task id="LOCAL-00060" summary="attempt to remove link from closed events.">
+      <created>1653335935817</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1653335935817</updated>
+    </task>
+    <task id="LOCAL-00061" summary="attempt to remove link from closed events.">
+      <created>1653336017825</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1653336017825</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Added developer video and new developer page.">
+      <created>1653342643323</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1653342643323</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Added developer video and new developer page.">
+      <created>1653342891592</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1653342891593</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Added developer video and new developer page.">
+      <created>1653342976372</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1653342976373</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update base URL yet again. Still no golden ticket." />
+    <MESSAGE value="fixed site manifest link" />
+    <MESSAGE value="base url to nothing?" />
+    <MESSAGE value="trying another image URL" />
+    <MESSAGE value="image urls relative. Considers page a folder." />
+    <MESSAGE value="Added video resizing for YouTube and modal image popout." />
+    <MESSAGE value="added aux link" />
+    <MESSAGE value="added nav structure" />
+    <MESSAGE value="added sub sub nav structure" />
+    <MESSAGE value="fixed placeholder page that shouldn't have children" />
+    <MESSAGE value="added grand_parent metadata" />
+    <MESSAGE value="Fixed image paths" />
+    <MESSAGE value="Added edit button to doc pages" />
+    <MESSAGE value="fixed yml spacing in config" />
+    <MESSAGE value="fixed edit link" />
+    <MESSAGE value="trying a script for universal last modified." />
+    <MESSAGE value="removed script for universal last modified." />
+    <MESSAGE value="Added full-calendar demo" />
+    <MESSAGE value="added summit event site for calendar feed" />
+    <MESSAGE value="added select for audience dropdown" />
+    <MESSAGE value="set full calendar content height to auto to avoid scrollbars" />
+    <MESSAGE value="added different tippy script include" />
+    <MESSAGE value="removed link for closed events" />
+    <MESSAGE value="attempt to remove link from closed events." />
+    <MESSAGE value="Added developer video and new developer page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added developer video and new developer page." />
+  </component>
 </project>
