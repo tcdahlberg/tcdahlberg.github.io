@@ -30,3 +30,4 @@ out
 # CumulusCI
 /test_results.*
 .idea/*
+.idea/workspace.xml
