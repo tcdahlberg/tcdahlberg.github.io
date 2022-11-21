@@ -21,7 +21,7 @@
   }
   .main {
     margin-left: 30%;
-    marx-width: 70%;
+    max-width: 70%;
   }
   .site-header {
     border-bottom: none;
@@ -85,6 +85,11 @@ a {
 
 footer .utterances {
   max-width: 100%;
+}
+
+footer.site-footer {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /*
