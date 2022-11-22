@@ -21,7 +21,6 @@
   }
   .main {
     margin-left: 30%;
-    max-width: 70%;
   }
   .site-header {
     border-bottom: none;
@@ -79,11 +78,12 @@ a {
   padding: 10px 10px 10px 17%;
   background-color: #D7ECF3;
   border-radius: 14px;
-  background-image: url(/assets/images/OSC-badge.png);
-  background-repeat: no-repeat;
-  background-position-x: 20px;
-  background-position-y: 20px;
-  background-size: 13% auto;
+}
+
+#globalFooter img {
+  float: left;
+  max-width: 300px;
+  width: 30%;
 }
 
 footer .utterances {
