@@ -14,7 +14,7 @@ color_scheme: light
 logo: "/assets/images/SEA-header.png"
 
 #doc_root: 'https://sfdo-community-sprints.github.io/summit-events-app-documentation/'
-doc_root: 'https://tcdahlberg.github.io/'
+doc_root: 'https://tcdahlberg.github.io'
 
 permalink: pretty
 exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/" ]
