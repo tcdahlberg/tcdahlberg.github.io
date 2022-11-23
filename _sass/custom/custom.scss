@@ -82,7 +82,8 @@ a {
 
 #globalFooter img {
   float: left;
-  max-width: 300px;
+  margin: 5px 20px 5px 5px;
+  max-width: 200px;
   width: 30%;
 }
 
@@ -94,6 +95,13 @@ footer.site-footer {
   padding-left: 0;
   padding-right: 0;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 /*
 
