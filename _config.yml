@@ -5,7 +5,7 @@ baseurl: "/" #the subpath of your site, e.g. /blog
 url: "https://sfdo-community-sprints.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Information on theme https://just-the-docs.github.io/just-the-docs/
-remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
+remote_theme: just-the-docs/just-the-docs
 
 # Color scheme supports "light" (default) and "dark"
 color_scheme: light
