@@ -42,12 +42,16 @@ a {
   min-height: 160px;
   max-height: 260px;
   height: 260px;
-  background-image: linear-gradient(#268CCB, #D7ECF3);
   border-bottom: none;
+}
+
+.site-logo {
+  background-position: center;
 }
 
 .site-nav {
   padding-top: 0;
+  padding-bottom: 0;
 }
 
 .site-title {
