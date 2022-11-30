@@ -1,9 +1,3 @@
-/*
-let ownerName = "{{ site.github.owner_name }}";
-let repoName = "{{ site.github.repository_name }}";
-let pagePath = "{{ page.path }}"
-*/
-
 document.addEventListener('DOMContentLoaded', function (event) {
     //get last modified
     setModifiedDate();
@@ -67,14 +61,12 @@ function setModifiedDate() {
     if (document.getElementById('last-modified')) {
         fetch("https://api.github.com/repos/" + ownerName + "/" + repoName + "/commits?path=" + pagePath)
             .then((response) => {
-                console.log(JSON.stringify(response));
                 return response.json();
             })
             .then((commits) => {
+                console.log(JSON.stringify(commits[0]));
                 let modified = commits[0]['commit']['committer']['date'].slice(0, 10);
-                //if(modified != "{{ page.date | date: "%Y-%m-%d" }}") {
                 document.getElementById('last-modified').textContent = "Last Modified: " + modified;
-                // }
             });
     }
 }
