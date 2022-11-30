@@ -154,3 +154,4 @@ Once you've cloned the Permission set, you'll need to edit your custom permissio
 Congrats! At this point you should have a functioning Summit Events Package.
 
 
+
