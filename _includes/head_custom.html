@@ -5,24 +5,7 @@
 <link rel="stylesheet" href="{{ site.site_root }}/assets/css/styles.css">
 <script type="text/javascript" src="{{ site.site_root }}/assets/js/scripts.js"></script>
 <script type="text/javascript">
-    document.addEventListener('DOMContentLoaded', function () {
-        setModifiedDate();
-    }, false);
-
-    function setModifiedDate() {
-        if (document.getElementById('last-modified')) {
-            fetch("https://api.github.com/repos/{{ site.github.owner_name }}/{{ site.github.repository_name }}/commits?path={{ page.path }}")
-                .then((response) => {
-                    console.log(JSON.stringify(response));
-                    return response.json();
-                })
-                .then((commits) => {
-                    let modified = commits[0]['commit']['committer']['date'].slice(0, 10);
-                    //if(modified != "{{ page.date | date: "%Y-%m-%d" }}") {
-                    document.getElementById('last-modified').textContent = "Last Modified: " + modified;
-                    // }
-                });
-        }
-    }
-
+    let ownerName = "{{ site.github.owner_name }}";
+    let repoName = "{{ site.github.repository_name }}";
+    let pagePath = "{{ page.path }}"
 </script>

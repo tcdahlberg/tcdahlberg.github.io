@@ -1,4 +1,7 @@
 document.addEventListener('DOMContentLoaded', function (event) {
+    //get last modified
+    setModifiedDate();
+
     //create the modal
     //Add modal to the document
     const imageModal = document.createElement('div');
@@ -52,4 +55,20 @@ window.onresize = setIframeVideo;
 function getContentWidth(element) {
     let styles = getComputedStyle(element)
     return element.clientWidth - parseFloat(styles.paddingLeft) - parseFloat(styles.paddingRight)
+}
+
+function setModifiedDate() {
+    if (document.getElementById('last-modified')) {
+        fetch("https://api.github.com/repos/" + ownerName + "/" + repoName + "/commits?path=" + pagePath)
+            .then((response) => {
+                console.log(JSON.stringify(response));
+                return response.json();
+            })
+            .then((commits) => {
+                let modified = commits[0]['commit']['committer']['date'].slice(0, 10);
+                //if(modified != "{{ page.date | date: "%Y-%m-%d" }}") {
+                document.getElementById('last-modified').textContent = "Last Modified: " + modified;
+                // }
+            });
+    }
 }
