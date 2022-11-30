@@ -4,7 +4,6 @@ parent: Advanced Features
 has_children: true
 ---
 
-
 # Creating and Managing Event Appointments
 
 There are scenarios where a registrant might need to select various options during the registration process.  This is where appointments come in handy.  Appointments are extremely flexible and can be used for a number of different purposes.  They also allow for time based options which is one way in which they differ from questions.   Appointments are configurable per event and used by event instances related to the event.  
