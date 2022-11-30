@@ -69,11 +69,6 @@ gh_edit_view_mode: "edit" # "tree" or "edit" if you want the user to jump into t
 plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata
-  - jekyll-last-modified-at
-
-# Optional. The default date format, used if none is specified in the tag.
-last-modified-at:
-  date-format: '%d-%b-%y'
 
 kramdown:
   syntax_highlighter_opts:
