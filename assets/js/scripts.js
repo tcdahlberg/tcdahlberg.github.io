@@ -1,6 +1,8 @@
+/*
 let ownerName = "{{ site.github.owner_name }}";
 let repoName = "{{ site.github.repository_name }}";
 let pagePath = "{{ page.path }}"
+*/
 
 document.addEventListener('DOMContentLoaded', function (event) {
     //get last modified
